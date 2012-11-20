@@ -1,0 +1,7 @@
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\bin\Release\brb.dll
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\bin\Release\brb.pdb
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\bin\Release\fCraft.dll
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\bin\Release\ServiceStack.Text.dll
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\obj\Release\brb.dll
+C:\Users\Heather\documents\visual studio 2010\Projects\brb\brb\obj\Release\brb.pdb
