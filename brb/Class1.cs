@@ -9,7 +9,6 @@ namespace brb
 {
     public class Init : Plugin
     {
-        //everything that will happen upon startup
         public void Initialize()
         {
             Logger.Log(
@@ -24,11 +23,9 @@ namespace brb
                 RepeatableSelection = true,
                 IsConsoleSafe = true,
                 Help = "type /brb [message]",
-                Handler = Away,
+                Handler = BRB,
             });
         }
-
-        //your plugin name
         public string Name
         {
             get
@@ -40,8 +37,6 @@ namespace brb
                 Name = value;
             }
         }
-
-        //your plugin version
         public string Version
         {
             get
@@ -53,11 +48,8 @@ namespace brb
                 Version = value;
             }
         }
-
-        //this is where all that beautiful code goes. This example just sends a server-wide message.
-        internal static void Away(Player player, Command cmd)
+        internal static void BRB(Player player, Command cmd)
         {
-          //  string message = "test";
             StreamReader streamReader = new StreamReader("plugins/brbMessage.txt");
             string message = streamReader.ReadToEnd();
             streamReader.Close();
@@ -81,7 +73,5 @@ namespace brb
                 player.IsAway = true;
             }
         }
-
-        //congrats babay
     }
 }
