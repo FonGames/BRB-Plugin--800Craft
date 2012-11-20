@@ -1,0 +1,1 @@
+Place the brbMessage.txt file into the plugins folder and write what you want the Default messageto be on the first line only!
